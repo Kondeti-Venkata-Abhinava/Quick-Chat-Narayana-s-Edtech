@@ -9,3 +9,6 @@
 and contract.
 6. A dummy menu should be displayed when the user clicks the options icon in the
 profile component
+
+And here is the Quick-chat link of my task
+https://quickchat.ccbp.tech/
