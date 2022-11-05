@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="shadow-container1">
+        <br />
+        <div class="card-container">
+            <div class="first-container">
+                <div class="chat-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="100" fill="currentColor" class="bi bi-messenger icon-chat" viewBox="0 0 16 16">
+                        <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
+                    </svg>
+                    <p class="chat-name">QuickChat</p>
+                </div>
+                <div class="shawdow-container">
+                    <img src="https://res.cloudinary.com/dx94hnzfl/image/upload/v1612593409/Ellipse_1_2_uziel2.png" class="profile-image" />
+                    <div class="name-row">
+                        <h1 class="name">Bill Bradford</h1>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="53" fill="black" class="bi bi-gear" viewBox="0 0 16 16">
+                            <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
+                            <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
+                        </svg>
+                    </div>
+                    <p class="role">Lead UX/UI Designer</p>
+                    <p class="active">Active</p>
+                </div>
+                <h1 class="active-conver">Active Conversations<span style="color: black;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-4-circle" viewBox="0 0 16 16">
+                            <path d="M7.519 5.057c.22-.352.439-.703.657-1.055h1.933v5.332h1.008v1.107H10.11V12H8.85v-1.559H4.978V9.322c.77-1.427 1.656-2.847 2.542-4.265ZM6.225 9.281v.053H8.85V5.063h-.065c-.867 1.33-1.787 2.806-2.56 4.218Z" />
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Z" />
+                        </svg>
+                    </span>
+                </h1>
+                <div class="person-name-container">
+                    <button class="btn">
+                        <img src="https://res.cloudinary.com/dx94hnzfl/image/upload/v1612593409/Ellipse_1_2_uziel2.png" class="profile-icon" />
+                        <p class="person-name" style="font-weight: bold;">Henry Boyd</p>
+                    </button>
+                </div>
+                <div class="person-name-container">
+                    <img src="https://assets.ccbp.in/frontend/intermediate-rwd/praneetha-img.png" class="profile-icon" />
+                    <p class="person-name">Martha Curtis
+                        <span class="num"> </span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-2-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM6.646 6.24c0-.691.493-1.306 1.336-1.306.756 0 1.313.492 1.313 1.236 0 .697-.469 1.23-.902 1.705l-2.971 3.293V12h5.344v-1.107H7.268v-.077l1.974-2.22.096-.107c.688-.763 1.287-1.428 1.287-2.43 0-1.266-1.031-2.215-2.613-2.215-1.758 0-2.637 1.19-2.637 2.402v.065h1.271v-.07Z" />
+                        </svg>
+                    </p>
+                </div>
+                <div class="person-name-container">
+                    <img src="https://res.cloudinary.com/dx94hnzfl/image/upload/v1612593409/Ellipse_1_2_uziel2.png" class="profile-icon" />
+                    <p class="person-name">Phillip Tucker</p>
+                </div>
+                <div class="person-name-container">
+                    <img src="https://as1.ftcdn.net/v2/jpg/03/67/46/48/1000_F_367464887_f0w1JrL8PddfuH3P2jSPlIGjKU2BI0rn.jpg" class="profile-icon" />
+                    <p class="person-name">Christine Reid</p>
+                </div>
+                <div class="person-name-container">
+                    <img src="https://res.cloudinary.com/dx94hnzfl/image/upload/v1612593409/Ellipse_1_2_uziel2.png" class="profile-icon" />
+                    <p class="person-name">Jerry Guzman</p>
+                </div>
+                <div class="person-name-container">
+                    <img src="https://res.cloudinary.com/dx94hnzfl/image/upload/v1612593409/Ellipse_1_2_uziel2.png" class="profile-icon" />
+                    <p class="person-name">Russell Williams</p>
+                </div>
+                <h1 class="active-conver">Active Conversations</h1>
+            </div>
+            <div class="middle-card-container">
+                <div class="msgs-container">
+                    <div class="msg">
+                        <p class="msg-sent1">Hi Henry!!</p>
+                        <img src="https://res.cloudinary.com/dx94hnzfl/image/upload/v1612593409/Ellipse_1_2_uziel2.png" class="profile-icons" />
+                    </div>
+                    <p class="right-time">9h ago</p>
+                    <div class="msg">
+                        <p class="msg-sent">How can I help you today?</p>
+                        <img src="https://res.cloudinary.com/dx94hnzfl/image/upload/v1612593409/Ellipse_1_2_uziel2.png" class="profile-icons" />
+                    </div>
+                    <p class="right-time">9h ago</p>
+                    <div class="msg">
+                        <img src="https://res.cloudinary.com/dx94hnzfl/image/upload/v1612593409/Ellipse_1_2_uziel2.png" class="profile-icons" />
+                        <p class="msg-received">Hey Bill, nice to meet you!</p>
+
+                    </div>
+                    <p class="left-time">9h ago</p>
+                    <div class="msg">
+                        <img src="https://res.cloudinary.com/dx94hnzfl/image/upload/v1612593409/Ellipse_1_2_uziel2.png" class="profile-icons" />
+                        <p class="msg-received">Hope you're doing fine.</p>
+
+                    </div>
+                    <p class="left-time">9h ago</p>
+                    <div class="msg">
+                        <p class="msg-sent">I'm good thanks for asking.</p>
+                        <img src="https://res.cloudinary.com/dx94hnzfl/image/upload/v1612593409/Ellipse_1_2_uziel2.png" class="profile-icons" />
+                    </div>
+                    <p class="right-time">9h ago</p>
+                    <div class="msg">
+                        <img src="https://res.cloudinary.com/dx94hnzfl/image/upload/v1612593409/Ellipse_1_2_uziel2.png" class="profile-icons" />
+                        <p class="msg-received">I am interested to know more about your prices and services you offer</p>
+
+                    </div>
+                    <p class="left-time">9h ago</p>
+                    <div class="msg">
+                        <p class="msg-sent2">Sure, please check below link to find more useful information<br />http://mazepixel.com/portfolio</p>
+                        <img src="https://res.cloudinary.com/dx94hnzfl/image/upload/v1612593409/Ellipse_1_2_uziel2.png" class="profile-icons" />
+                    </div>
+                    <p class="right-time">9h ago</p>
+                    <div class="msg">
+                        <img src="https://res.cloudinary.com/dx94hnzfl/image/upload/v1612593409/Ellipse_1_2_uziel2.png" class="profile-icons" />
+                        <p class="msg-received">Awesome, will get in touch if there's anything unclear. Thanks for now!</p>
+
+                    </div>
+                    <p class="left-time">9h ago</p>
+                    <div class="msg">
+                        <img src="https://res.cloudinary.com/dx94hnzfl/image/upload/v1612593409/Ellipse_1_2_uziel2.png" class="profile-icons" />
+                        <p class="msg-received">Have a great day!</p>
+                    </div>
+                    <p class="left-time">9h ago</p>
+                    <div class="msg">
+                        <p class="msg-sent">Thanks buddy, you too as well</p>
+                        <img src="https://res.cloudinary.com/dx94hnzfl/image/upload/v1612593409/Ellipse_1_2_uziel2.png" class="profile-icons" />
+                    </div>
+                    <p class="right-time">9h ago</p>
+                </div>
+                <div class="button">
+                    <div clas="row-container">
+                        <i class="fas fa-paperclip ml-3"></i>
+                        <input type="text" class="text-element" placeholder="Enter your message here" />
+                        <button class="send-button">Send</button>
+                    </div>
+                </div>
+            </div>
+            <div class="top-card">
+                <div class="card-container1">
+                    <img src="https://res.cloudinary.com/dx94hnzfl/image/upload/v1612593409/Ellipse_1_2_uziel2.png" class="profile-image1" />
+                    <div class="profile-enve">
+                        <div class="row">
+                            <i class="fa fa-envelope icon mr-1"></i>
+                            <p class="details">henrybody@gmail.com</p>
+                        </div>
+
+                        <div class="row">
+                            <i class="far fa-user icon mr-1"></i>
+                            <p class="details">Henry Boyd</p>
+                        </div>
+                        <div class="archive-container">
+                            <p class="archive">Archive
+                                <i class="fa fa-archive"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container2">
+                    <div class="card-row">
+                        <div class="small-card card1">
+                            <i class="fa fa-clock"></i>
+                            <div>
+                                <p class="count1">13h</p>
+                                <p class="status">Time</p>
+                            </div>
+                        </div>
+
+                        <div class="small-card card2">
+                            <i class="fa fa-users"></i>
+                            <div>
+                                <p class="count2">188</p>
+                                <p class="status">Attendeed</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-row">
+                        <div class="small-card card3">
+                            <i class="fa fa-calendar-check"></i>
+                            <div>
+                                <p class="count3">119</p>
+                                <p class="status">Meetings</p>
+                            </div>
+                        </div>
+                        <div class="small-card card4">
+                            <i class="fas fa-circle"></i>
+                            <div>
+                                <p class="count4">41</p>
+                                <p class="status">Rejected</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 class="graph-container">Current week</h1>
+                    <i class="fas fa-signal icon-bar"></i>
+                </div>
+
+
+
+                <div class="card-container3">
+                    <h1 class="heading">Onboard Clients</h1>
+                    <p class="para">Share the link with prospects and discuss all stuff</p>
+                    <div class="copy-container">
+                        <h1 class="copy-button">Copy Link
+                            <span><i class="fas fa-link"></i></span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
